@@ -1,0 +1,5 @@
+<p><video class="kg-video" src="$VIDEO_LINK" preload="none" controls></video></p>
+
+
+
+

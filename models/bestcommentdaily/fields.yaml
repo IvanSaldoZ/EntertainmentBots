@@ -1,0 +1,44 @@
+fields:
+    article_id:
+        label: 'Article ID'
+        oc.commentPosition: ''
+        span: left
+        type: number
+    post_id:
+        label: 'Post ID'
+        oc.commentPosition: ''
+        span: right
+        type: number
+    post_slug:
+        label: 'Post slug'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    comment:
+        label: Comment
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    like_count:
+        label: 'Like count'
+        oc.commentPosition: ''
+        span: left
+        type: number
+    published_at:
+        label: 'Published at'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    link:
+        label: Link
+        oc.commentPosition: ''
+        span: full
+        type: text
+    best_date:
+        label: 'Date of winning'
+        span: auto
+        oc.commentPosition: ''
+        mode: datetime
+        type: datepicker

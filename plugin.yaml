@@ -1,0 +1,44 @@
+plugin:
+    name: 'cwtuning.bots::lang.plugin.name'
+    description: 'cwtuning.bots::lang.plugin.description'
+    author: CWTuning
+    icon: icon-android
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Bots
+        url: cwtuning/bots/bots
+        icon: icon-android
+        sideMenu:
+            side-menu-item:
+                label: Bots
+                url: cwtuning/bots/bots
+                icon: icon-android
+            side-menu-item2:
+                label: 'Bots Articles'
+                url: cwtuning/bots/botsarticle
+                icon: icon-stack-exchange
+            side-menu-item3:
+                label: 'Bots Log'
+                url: cwtuning/bots/botslog
+                icon: icon-bars
+            side-menu-item4:
+                label: 'YouTuber Channels'
+                url: cwtuning/bots/botsyoutuberchannels
+                icon: icon-youtube-square
+            side-menu-item5:
+                label: 'YouTuber Videos'
+                url: cwtuning/bots/botsyoutubervideos
+                icon: icon-youtube-play
+            side-menu-item7:
+                label: 'YouTuber Channel Playlists'
+                url: cwtuning/bots/botsyoutuberplaylists
+                icon: icon-play-circle
+            side-menu-item8:
+                label: 'YouTuber Filtered Words'
+                url: cwtuning/bots/botsyoutubervideostitlefilter
+                icon: icon-filter
+            side-menu-item6:
+                label: 'Blog Filtered words'
+                url: cwtuning/bots/blogtitlefilter
+                icon: icon-filter

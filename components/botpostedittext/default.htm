@@ -1,0 +1,14 @@
+<form data-request="onBotPostEditText">
+    <input type="hidden" name="post_id" value="{{ BotPost.id }}">
+    <p>
+        <div id="EditTextBtn"><button type="submit" class="btn btn-default">Отредактировать текст</button></div>
+    </p>
+</form>
+<form data-request="onBotPostEditTextDo">
+    <p>
+        <input type="hidden" name="post_id" value="{{ BotPost.id }}">
+    </p>
+    <div id="text_field"></div>
+</form>
+<div id="EditTextBtnCancel">
+</div>

@@ -1,0 +1,10 @@
+name: BotsArticle
+form: $/cwtuning/bots/models/article/fields.yaml
+modelClass: Cwtuning\Bots\Models\Article
+defaultRedirect: cwtuning/bots/botsarticle
+create:
+    redirect: 'cwtuning/bots/botsarticle/update/:id'
+    redirectClose: cwtuning/bots/botsarticle
+update:
+    redirect: cwtuning/bots/botsarticle
+    redirectClose: cwtuning/bots/botsarticle

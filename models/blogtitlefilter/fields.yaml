@@ -1,0 +1,12 @@
+fields:
+    filtered_word:
+        label: 'Filtered word'
+        span: left
+        type: text
+        comment: 'Отфильтрованное слово, т.е. слово, которое если будет найдено, то новость опубликована не будет'
+    is_on:
+        label: 'Is on?'
+        span: left
+        default: 1
+        type: switch
+        comment: 'Включено ли данное слово (можно временно выключить слово, не удаляя его из БД)'

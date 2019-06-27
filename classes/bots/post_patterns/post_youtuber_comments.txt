@@ -1,0 +1,10 @@
+<div class="b-comments">
+
+<i title="Коммент" class="fa fa-comment-o" aria-hidden="true"></i> $USER_NAME | <span class="date">$USER_DATE</span>
+<p>$COMMENT</p>Лайков <i title="Лайков" class="fa fa-thumbs-o-up" aria-hidden="true"></i>: $LIKES
+
+</div>
+
+<br>
+
+

@@ -1,0 +1,10 @@
+name: BotsYouTuberPlayLists
+form: $/cwtuning/bots/models/youtuberplaylists/fields.yaml
+modelClass: Cwtuning\Bots\Models\YouTuberPlaylists
+defaultRedirect: cwtuning/bots/botsyoutuberplaylists
+create:
+    redirect: 'cwtuning/bots/botsyoutuberplaylists/update/:id'
+    redirectClose: cwtuning/bots/botsyoutuberplaylists
+update:
+    redirect: cwtuning/bots/botsyoutuberplaylists
+    redirectClose: cwtuning/bots/botsyoutuberplaylists

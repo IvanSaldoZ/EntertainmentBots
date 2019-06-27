@@ -1,0 +1,17 @@
+fields:
+    bot_id:
+        label: 'Bot ID'
+        oc.commentPosition: ''
+        span: auto
+        type: number
+    result:
+        label: Result
+        size: ''
+        oc.commentPosition: ''
+        span: auto
+        type: textarea
+    parser_address:
+        label: 'Parser Address'
+        span: auto
+        oc.commentPosition: ''
+        type: text

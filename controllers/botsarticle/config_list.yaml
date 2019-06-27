@@ -1,0 +1,13 @@
+title: BotsArticle
+modelClass: Cwtuning\Bots\Models\Article
+list: $/cwtuning/bots/models/article/columns.yaml
+recordUrl: 'cwtuning/bots/botsarticle/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 50
+showSorting: 1
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

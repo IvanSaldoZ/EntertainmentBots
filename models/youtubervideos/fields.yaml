@@ -1,0 +1,34 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    video_id:
+        label: 'Video ID'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    published_at:
+        label: 'Published at'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    description:
+        label: Description
+        span: left
+        size: ''
+        oc.commentPosition: ''
+        type: textarea
+    published:
+        label: 'Is published in Blog?'
+        span: right
+        type: switch
+    channel:
+        label: 'Channel Caption'
+        oc.commentPosition: ''
+        nameFrom: channel_caption
+        descriptionFrom: description
+        span: auto
+        type: relation

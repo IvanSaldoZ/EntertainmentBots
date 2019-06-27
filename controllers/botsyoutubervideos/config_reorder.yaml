@@ -1,0 +1,4 @@
+title: BotsYouTuberVideos
+modelClass: Cwtuning\Bots\Models\YouTuberVideos
+toolbar:
+    buttons: reorder_toolbar

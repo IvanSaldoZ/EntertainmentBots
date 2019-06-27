@@ -1,0 +1,50 @@
+{% set BotPost = __SELF__.BotPost %}
+
+{% if BotPost %}
+
+    {% set detailPageLink = 'bot-article'|page %}
+
+
+
+    <p class="lead">
+        <!--Название поста-->
+        {# Use spaceless tag to remove spaces inside the A tag. #}
+        {% spaceless %}
+        <a href="{{ detailPageLink }}">
+            {{ BotPost.title }}
+        </a>
+        {% endspaceless %}
+    </p>
+
+
+    <form data-request="onBotPostEditText">
+        <input type="hidden" name="post_id" value="{{ BotPost.id }}">
+        <p>
+            <div id="EditTextBtn"><button type="submit" class="btn btn-default">Отредактировать текст</button></div>
+        </p>
+    </form>
+    <form data-request="onBotPostEditTextDo">
+        <p>
+            <input type="hidden" name="post_id" value="{{ BotPost.id }}">
+        </p>
+        <div id="text_field"></div>
+    </form>
+    <div id="EditTextBtnCancel">
+    </div>
+
+
+    <div id="res">
+        <form data-request="onBotPostPublish">
+            <input type="hidden" name="post_id" value="{{ BotPost.id }}">
+            <button type="submit" class="btn btn-primary">Опубликовать в блоге!</button>
+        </form>
+    </div>
+
+
+    <div class="content">{{ BotPost.content|raw }}</div>
+    <hr />
+
+    <p class="info">
+        Дата публикации: {{ BotPost.published_at|date('d.m.Y') }}
+    </p>
+{% endif %}

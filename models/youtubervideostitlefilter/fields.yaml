@@ -1,0 +1,21 @@
+fields:
+    channel:
+        label: Channel
+        oc.commentPosition: ''
+        nameFrom: channel_caption
+        descriptionFrom: description
+        span: left
+        type: relation
+    filtered_words:
+        label: 'Filter for title'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    is_allowed:
+        label: 'Allowed?'
+        span: right
+        type: switch
+    is_on:
+        label: 'Is filter on?'
+        span: left
+        type: checkbox

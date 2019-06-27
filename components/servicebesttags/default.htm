@@ -1,0 +1,16 @@
+{% set BestTags = __SELF__.BestTags %}
+
+
+{% if BestTags %}
+
+    <h4><i title="Популярные тэги" class="fa fa-tags" aria-hidden="true"></i> Популярные тэги</h4>
+
+    {% for BestTag in BestTags %}
+
+        {% set TagPageLink = 'tag_search'|page({ tag: BestTag.tag_name }) %}
+
+        <a class="btn btn-info btn-sm" style="margin:2px;" href="{{ TagPageLink }}">{{ BestTag.tag_name }}</a>
+
+    {% endfor %}
+
+{% endif %}

@@ -1,0 +1,10 @@
+name: BotsYouTuberVideos
+form: $/cwtuning/bots/models/youtubervideos/fields.yaml
+modelClass: Cwtuning\Bots\Models\YouTuberVideos
+defaultRedirect: cwtuning/bots/botsyoutubervideos
+create:
+    redirect: 'cwtuning/bots/botsyoutubervideos/update/:id'
+    redirectClose: cwtuning/bots/botsyoutubervideos
+update:
+    redirect: cwtuning/bots/botsyoutubervideos
+    redirectClose: cwtuning/bots/botsyoutubervideos

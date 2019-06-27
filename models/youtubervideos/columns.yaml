@@ -1,0 +1,25 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: true
+    video_id:
+        label: 'Video ID'
+        type: text
+        searchable: true
+        sortable: true
+    published_at:
+        label: 'Published at'
+        type: datetime
+        format: Y-m-d H:i:s
+    channel_id:
+        label: 'Channel ID'
+        type: text
+        searchable: true
+        sortable: true
+        select: channel_caption
+        relation: channel
+    published:
+        label: 'Is published in Blog?'
+        type: switch

@@ -1,0 +1,10 @@
+name: BotsYouTuberChannels
+form: $/cwtuning/bots/models/youtuberchannels/fields.yaml
+modelClass: Cwtuning\Bots\Models\YouTuberChannels
+defaultRedirect: cwtuning/bots/botsyoutuberchannels
+create:
+    redirect: 'cwtuning/bots/botsyoutuberchannels/update/:id'
+    redirectClose: cwtuning/bots/botsyoutuberchannels
+update:
+    redirect: cwtuning/bots/botsyoutuberchannels
+    redirectClose: cwtuning/bots/botsyoutuberchannels

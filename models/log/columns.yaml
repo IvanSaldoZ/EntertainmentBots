@@ -1,0 +1,26 @@
+columns:
+    action_id:
+        label: 'Action ID'
+        type: number
+        searchable: true
+        sortable: true
+    datetime:
+        label: 'Date Time'
+        type: datetime
+        format: Y-m-d H:i:s
+        sortable: true
+    parser_address:
+        label: 'Parser Address'
+        type: text
+        searchable: true
+    result:
+        label: Result
+        type: text
+        searchable: true
+    bot_title:
+        label: BotTitle
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: bot

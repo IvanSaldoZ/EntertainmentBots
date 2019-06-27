@@ -1,0 +1,10 @@
+name: BotsYouTuberComments
+form: $/cwtuning/bots/models/youtubercomments/fields.yaml
+modelClass: Cwtuning\Bots\Models\YouTuberComments
+defaultRedirect: cwtuning/bots/botsyoutubercomments
+create:
+    redirect: 'cwtuning/bots/botsyoutubercomments/update/:id'
+    redirectClose: cwtuning/bots/botsyoutubercomments
+update:
+    redirect: cwtuning/bots/botsyoutubercomments
+    redirectClose: cwtuning/bots/botsyoutubercomments

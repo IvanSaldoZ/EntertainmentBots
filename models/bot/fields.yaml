@@ -1,0 +1,57 @@
+fields:
+    title:
+        label: 'Название бота'
+        span: auto
+        required: 1
+        type: text
+        comment: 'Только английские буквы'
+    description:
+        label: Описание
+        size: ''
+        oc.commentPosition: ''
+        span: left
+        required: 1
+        type: textarea
+    is_on:
+        label: Включен
+        span: right
+        type: switch
+    parser_addr:
+        label: 'Адрес парсинга'
+        span: auto
+        oc.commentPosition: ''
+        required: 1
+        type: text
+    minutes_between:
+        label: 'Интервал сканирования (мин.)'
+        oc.commentPosition: ''
+        span: left
+        default: '1440'
+        required: 1
+        type: number
+    hours_begin:
+        label: 'Ограничение по времени: начало'
+        span: left
+        type: number
+        comment: 'Введите часы, с которых будет работать бот'
+    hours_end:
+        label: 'Ограничение по времени: конец'
+        span: right
+        type: number
+        comment: 'Введите часы, до которых будет работать бот'
+    categories:
+        label: 'Категория постов по умолчанию'
+        oc.commentPosition: ''
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        type: relation
+    last_scanned_id:
+        label: 'Последний ID сканирования'
+        span: left
+        type: text
+        comment: 'С этого ID продолжается сканирование адресов для парсинга'
+    is_public:
+        label: 'Публичный бот'
+        span: left
+        type: checkbox

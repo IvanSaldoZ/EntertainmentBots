@@ -1,0 +1,49 @@
+columns:
+    title:
+        label: Название
+        type: text
+        searchable: true
+        sortable: true
+    description:
+        label: Описание
+        type: text
+        searchable: true
+        invisible: true
+    last_scanned:
+        label: 'Последний поиск'
+        type: datetime
+        format: Y-m-d H:i:s
+        sortable: true
+    parser_addr:
+        label: 'Адрес парсинга'
+        type: text
+        searchable: true
+    minutes_between:
+        label: 'Интервал скана'
+        type: number
+        default: '1440'
+    is_on:
+        label: 'Вкл?'
+        type: switch
+    hours_begin:
+        label: 'Мин время'
+        type: number
+        searchable: true
+        sortable: true
+    hours_end:
+        label: Макс.время
+        type: number
+        searchable: true
+        sortable: true
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    last_scanned_id:
+        label: 'Last ID'
+        type: number
+    is_public:
+        label: 'Публичный бот'
+        type: switch
+        sortable: true

@@ -1,0 +1,35 @@
+columns:
+    title:
+        label: Title
+        type: text
+        searchable: true
+        sortable: false
+    id:
+        label: ID
+        type: number
+    user_id:
+        label: Пользоватль
+        type: number
+    published_at:
+        label: 'Дата публикации'
+        type: datetime
+        format: Y-m-d H:i:s
+    is_published:
+        label: 'Опубликовано?'
+        type: text
+    created_at:
+        label: 'Дата создания'
+        type: datetime
+        format: Y-m-d H:i:s
+    source:
+        label: Источник
+        type: text
+    bot_name:
+        label: Бот
+        type: text
+    post_id:
+        label: 'Пост ID'
+        type: number
+        searchable: true
+        sortable: true
+        relation: post

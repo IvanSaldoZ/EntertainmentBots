@@ -1,0 +1,4 @@
+title: BotsYouTuberPlayLists
+modelClass: Cwtuning\Bots\Models\YouTuberPlaylists
+toolbar:
+    buttons: reorder_toolbar

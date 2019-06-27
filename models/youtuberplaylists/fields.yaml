@@ -1,0 +1,21 @@
+fields:
+    playlist_id:
+        label: 'Playlist ID'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    channel:
+        label: Channel
+        oc.commentPosition: ''
+        nameFrom: channel_caption
+        span: auto
+        type: relation
+    playlist_caption:
+        label: 'Playlist caption'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    is_on:
+        label: 'Is list on?'
+        span: auto
+        type: checkbox

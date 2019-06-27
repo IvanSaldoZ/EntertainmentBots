@@ -1,0 +1,5 @@
+<p><span class="fr-video fr-dvb fr-draggable fr-fvl" contenteditable="false" draggable="true"><iframe src="$VIDEO_LINK" frameborder="0" allowfullscreen="" class="youtube_video_inject"></iframe></span></p>
+
+
+
+

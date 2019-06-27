@@ -1,0 +1,4 @@
+title: BotsYouTuberComments
+modelClass: Cwtuning\Bots\Models\YouTuberComments
+toolbar:
+    buttons: reorder_toolbar

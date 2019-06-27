@@ -1,0 +1,40 @@
+columns:
+    id:
+        label: ID
+        type: number
+        sortable: true
+    article_id:
+        label: 'Article ID'
+        type: number
+        searchable: true
+        sortable: true
+    post_id:
+        label: 'Post ID'
+        type: number
+        searchable: true
+        sortable: true
+    post_slug:
+        label: 'Post slug'
+        type: text
+        searchable: true
+    comment:
+        label: Comment
+        type: text
+        searchable: true
+    like_count:
+        label: 'Like count'
+        type: number
+        sortable: true
+    published_at:
+        label: 'Piblished at'
+        type: datetime
+        sortable: false
+    link:
+        label: Link
+        type: text
+        searchable: true
+    best_date:
+        label: Date
+        type: date
+        searchable: true
+        sortable: true

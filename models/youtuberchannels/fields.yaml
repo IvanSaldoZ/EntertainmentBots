@@ -1,0 +1,38 @@
+fields:
+    channel_caption:
+        label: 'Channel Caption'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    channel_id:
+        label: 'Channel ID'
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    is_on:
+        label: 'Is ON to scan?'
+        span: auto
+        type: switch
+    last_scanned:
+        label: 'Last scanned'
+        span: auto
+        oc.commentPosition: ''
+        mode: datetime
+        type: datepicker
+    last_page_token:
+        label: 'Last page token'
+        span: auto
+        oc.commentPosition: ''
+        type: text
+    categories:
+        label: Category
+        nameFrom: name
+        descriptionFrom: description
+        span: left
+        oc.commentPosition: ''
+        type: relation
+    desc:
+        label: 'Is desc order?'
+        span: left
+        type: checkbox
+        comment: 'Desc order for videos scannig'

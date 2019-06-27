@@ -1,0 +1,24 @@
+columns:
+    video_id:
+        label: 'Video ID'
+        type: text
+        searchable: true
+        sortable: true
+    comment:
+        label: Comment
+        type: text
+        searchable: true
+        sortable: true
+    author_display_name:
+        label: 'Author display name'
+        type: text
+        searchable: true
+        sortable: true
+    like_count:
+        label: 'Likes count'
+        type: number
+    published_at:
+        label: 'Published At'
+        type: datetime
+        format: Y-m-d H:i:s
+

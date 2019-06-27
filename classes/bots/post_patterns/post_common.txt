@@ -1,0 +1,9 @@
+$CONTENT
+
+<br><br>
+
+<i class="fa fa-link" aria-hidden="true"></i> Новость с сайта "$SITE_NAME": <a target="_blank" href="$LINK">источник</a>.
+<br><br>
+
+
+

@@ -1,0 +1,10 @@
+name: BlogTitleFilter
+form: $/cwtuning/bots/models/blogtitlefilter/fields.yaml
+modelClass: Cwtuning\Bots\Models\BlogTitleFilter
+defaultRedirect: cwtuning/bots/blogtitlefilter
+create:
+    redirect: 'cwtuning/bots/blogtitlefilter/update/:id'
+    redirectClose: cwtuning/bots/blogtitlefilter
+update:
+    redirect: cwtuning/bots/blogtitlefilter
+    redirectClose: cwtuning/bots/blogtitlefilter

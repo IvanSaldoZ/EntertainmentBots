@@ -1,0 +1,12 @@
+fields:
+    video_id:
+        label: 'Video ID'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    comment:
+        label: Comment
+        span: left
+        size: ''
+        oc.commentPosition: ''
+        type: textarea

@@ -1,0 +1,21 @@
+{% set BestComment = __SELF__.BestComment %}
+
+
+{% if BestComment %}
+
+    <h4><i title="Популярный коммент за день" class="fa fa-comment-o" aria-hidden="true"></i> Популярный коммент за день</h4>
+    {% set detailPageLink = 'show_news'|page({ slug:BestComment.post_slug }) %}
+
+    <div class="b-comments">
+
+        {{ BestComment.author_display_name }} | <span class="date">{{ BestComment.published_at|date('d.m.Y') }}</span>
+        <p>{{ BestComment.comment|raw }}</p>Лайков: {{ BestComment.like_count }}
+
+        <br>
+        <a href="{{ detailPageLink }}">Перейти к новости в блоге...</a>.
+
+    </div>
+
+
+
+{% endif %}

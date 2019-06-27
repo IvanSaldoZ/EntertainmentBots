@@ -1,0 +1,19 @@
+columns:
+    channel_id:
+        label: Channel
+        type: text
+        searchable: true
+        sortable: true
+        select: channel_caption
+        relation: channel
+    filtered_words:
+        label: 'Filtered words'
+        type: text
+        searchable: true
+        sortable: true
+    is_allowed:
+        label: 'Allowed?'
+        type: switch
+    is_on:
+        label: 'Is on?'
+        type: switch

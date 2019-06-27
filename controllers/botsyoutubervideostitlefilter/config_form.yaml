@@ -1,0 +1,10 @@
+name: BotsYouTuberVideosTitleFilter
+form: $/cwtuning/bots/models/youtubervideostitlefilter/fields.yaml
+modelClass: Cwtuning\Bots\Models\YouTuberVideosTitleFilter
+defaultRedirect: cwtuning/bots/botsyoutubervideostitlefilter
+create:
+    redirect: 'cwtuning/bots/botsyoutubervideostitlefilter/update/:id'
+    redirectClose: cwtuning/bots/botsyoutubervideostitlefilter
+update:
+    redirect: cwtuning/bots/botsyoutubervideostitlefilter
+    redirectClose: cwtuning/bots/botsyoutubervideostitlefilter

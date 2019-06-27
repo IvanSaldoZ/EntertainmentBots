@@ -1,0 +1,4 @@
+title: BotsArticle
+modelClass: Cwtuning\Bots\Models\Article
+toolbar:
+    buttons: reorder_toolbar

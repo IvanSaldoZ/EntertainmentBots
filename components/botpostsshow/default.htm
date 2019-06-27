@@ -1,0 +1,44 @@
+{% set BotPosts = __SELF__.BotPosts %}
+
+
+{% if BotPosts %}
+
+    {% for BotPost in BotPosts %}
+
+        {% set detailPageLink = 'bot-article'|page({ slug: BotPost.slug }) %}
+
+        <p class="lead">
+            <!--Название поста-->
+            {# Use spaceless tag to remove spaces inside the A tag. #}
+            {% spaceless %}
+            <a href="{{ detailPageLink }}">
+                {{ BotPost.title }}
+            </a>
+            {% endspaceless %}
+        </p>
+
+        <!--Краткий текст поста-->
+        <p class="excerpt">{{ BotPost.content|raw }}</p>
+
+        <!--Дата публикации-->
+        <!--Читать далее-->
+
+        <p>
+            <a href="{{ detailPageLink }}" class="btn btn-md btn-default">Читать далее</a>
+        </p>
+        <p class="info">
+            Дата публикации: {{ BotPost.published_at|date('d.m.Y') }}
+        </p>
+
+        <hr>
+        <br><br>
+
+    {% endfor %}
+
+{% else %}
+
+    <p>
+        У Вас нет прав для просмотра этого содержимого!
+    </p>
+
+{% endif %}

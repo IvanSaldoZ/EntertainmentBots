@@ -1,0 +1,4 @@
+title: BotsLog
+modelClass: Cwtuning\Bots\Models\Log
+toolbar:
+    buttons: reorder_toolbar

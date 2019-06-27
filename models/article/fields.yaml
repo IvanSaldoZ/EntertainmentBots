@@ -1,0 +1,31 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    is_published:
+        label: 'Is Pulished'
+        span: auto
+        type: switch
+    content:
+        label: Content
+        span: auto
+        size: ''
+        oc.commentPosition: ''
+        type: richeditor
+    bot:
+        label: 'Бот, который добавил данную новость'
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation

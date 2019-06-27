@@ -1,0 +1,10 @@
+columns:
+    filtered_word:
+        label: 'Filtered word'
+        type: text
+        searchable: true
+        sortable: true
+    is_on:
+        label: 'Is on?'
+        type: switch
+        sortable: true

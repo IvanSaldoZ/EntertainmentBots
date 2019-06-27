@@ -1,0 +1,20 @@
+columns:
+    playlist_id:
+        label: 'Playlist ID (from YouTube link)'
+        type: text
+        searchable: true
+    channel_id:
+        label: Channel
+        type: text
+        searchable: true
+        sortable: true
+        select: "channel_caption\t"
+        relation: channel
+    playlist_caption:
+        label: 'Playlist caption'
+        type: text
+        searchable: true
+        sortable: true
+    is_on:
+        label: 'Is on?'
+        type: switch

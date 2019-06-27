@@ -1,0 +1,4 @@
+<p><span class="fr-video fr-dvb fr-draggable fr-fvl" contenteditable="false" draggable="true"><iframe src="https://www.youtube.com/embed/$VIDEO_ID" frameborder="0" allowfullscreen="" class="youtube_video_inject"></iframe></span></p>
+<p><a target="_blank" href="https://www.youtube.com/watch?v=$VIDEO_ID">$LINK_TO_CHANNEL</a></p>
+
+

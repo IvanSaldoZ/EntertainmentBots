@@ -1,0 +1,263 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table cwtuning_bots_articles'
+    - builder_table_create_cwtuning_bots_articles.php
+1.0.3:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles.php
+1.0.4:
+    - 'Created table cwtuning_bots_'
+    - builder_table_create_cwtuning_bots_.php
+1.0.5:
+    - 'Updated table cwtuning_bots_'
+    - builder_table_update_cwtuning_bots_.php
+1.0.6:
+    - 'Created table cwtuning_bots_log'
+    - builder_table_create_cwtuning_bots_log.php
+1.0.7:
+    - 'Created table cwtuning_bots_log_bots'
+    - builder_table_create_cwtuning_bots_log_bots.php
+1.0.8:
+    - 'Updated table cwtuning_bots_log'
+    - builder_table_update_cwtuning_bots_log.php
+1.0.9:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_2.php
+1.0.10:
+    - 'Updated table cwtuning_bots_'
+    - builder_table_update_cwtuning_bots__2.php
+1.0.11:
+    - 'Updated table cwtuning_bots_'
+    - builder_table_update_cwtuning_bots__3.php
+1.0.12:
+    - 'Created table cwtuning_bots_bots_categories'
+    - builder_table_create_cwtuning_bots_bots_categories.php
+1.0.13:
+    - 'Created table cwtuning_bots_bots_articles'
+    - builder_table_create_cwtuning_bots_bots_articles.php
+1.0.14:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_3.php
+1.0.15:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_4.php
+1.0.16:
+    - 'Drop table cwtuning_bots_bots_articles'
+    - builder_table_delete_cwtuning_bots_bots_articles.php
+1.0.17:
+    - 'Created table cwtuning_bots_config'
+    - builder_table_create_cwtuning_bots_config.php
+1.0.18:
+    - 'Updated table cwtuning_bots_config'
+    - builder_table_update_cwtuning_bots_config.php
+1.0.19:
+    - 'Updated table cwtuning_bots_log'
+    - builder_table_update_cwtuning_bots_log_2.php
+1.0.20:
+    - 'Drop table cwtuning_bots_log_bots'
+    - builder_table_delete_cwtuning_bots_log_bots.php
+1.0.21:
+    - 'Updated table cwtuning_bots_'
+    - builder_table_update_cwtuning_bots__4.php
+1.0.22:
+    - 'Updated table cwtuning_bots_config'
+    - builder_table_update_cwtuning_bots_config_2.php
+1.0.23:
+    - 'Updated table cwtuning_bots_config'
+    - builder_table_update_cwtuning_bots_config3.php
+1.0.24:
+    - 'Updated table cwtuning_bots_config'
+    - builder_table_update_cwtuning_bots_config4.php
+1.0.25:
+    - 'Updated table cwtuning_bots_config'
+    - builder_table_update_cwtuning_bots_config5.php
+1.0.26:
+    - 'Created table cwtuning_bots_youtuber_channels'
+    - builder_table_create_cwtuning_bots_youtuber_channels.php
+1.0.27:
+    - 'Created table cwtuning_bots_youtuber_videolist'
+    - builder_table_create_cwtuning_bots_youtuber_videolist.php
+1.0.28:
+    - 'Updated table cwtuning_bots_youtuber_videolist'
+    - builder_table_update_cwtuning_bots_youtuber_videolist.php
+1.0.29:
+    - 'Updated table cwtuning_bots_youtuber_channels'
+    - builder_table_update_cwtuning_bots_youtuber_channels.php
+1.0.30:
+    - 'Updated table cwtuning_bots_youtuber_channels'
+    - builder_table_update_cwtuning_bots_youtuber_channels_2.php
+1.0.31:
+    - 'Updated table cwtuning_bots_youtuber_videolist'
+    - builder_table_update_cwtuning_bots_youtuber_videolist_2.php
+1.0.32:
+    - 'Created table cwtuning_bots_youtuber_comments'
+    - builder_table_create_cwtuning_bots_youtuber_comments.php
+1.0.33:
+    - 'Updated table cwtuning_bots_youtuber_comments'
+    - builder_table_update_cwtuning_bots_youtuber_comments.php
+1.0.34:
+    - 'Updated table cwtuning_bots_youtuber_channels'
+    - builder_table_update_cwtuning_bots_youtuber_channels_3.php
+1.0.35:
+    - 'Created table cwtuning_bots_youtuber_playlists'
+    - builder_table_create_cwtuning_bots_youtuber_playlists.php
+1.0.36:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists.php
+1.0.37:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_2.php
+1.0.38:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_3.php
+1.0.39:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_4.php
+1.0.40:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_5.php
+1.0.41:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_6.php
+1.0.42:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_7.php
+1.0.43:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_8.php
+1.0.44:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_9.php
+1.0.45:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_10.php
+1.0.46:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_11.php
+1.0.47:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_12.php
+1.0.48:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_13.php
+1.0.49:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_14.php
+1.0.50:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_15.php
+1.0.51:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_16.php
+1.0.52:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_17.php
+1.0.53:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_18.php
+1.0.54:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_19.php
+1.0.55:
+    - 'Created table cwtuning_bots_youtuber_video_title_filter'
+    - builder_table_create_cwtuning_bots_youtuber_video_title_filter.php
+1.0.56:
+    - 'Updated table cwtuning_bots_youtuber_channels'
+    - builder_table_update_cwtuning_bots_youtuber_channels_4.php
+1.0.57:
+    - 'Updated table cwtuning_bots_youtuber_video_title_filter'
+    - builder_table_update_cwtuning_bots_youtuber_video_title_filter.php
+1.0.58:
+    - 'Updated table cwtuning_bots_youtuber_video_title_filter'
+    - builder_table_update_cwtuning_bots_youtuber_video_title_filter_2.php
+1.0.59:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_20.php
+1.0.60:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_21.php
+1.0.61:
+    - 'Updated table cwtuning_bots_youtuber_playlists'
+    - builder_table_update_cwtuning_bots_youtuber_playlists_22.php
+1.0.62:
+    - 'Updated table cwtuning_bots_youtuber_channels'
+    - builder_table_update_cwtuning_bots_youtuber_channels_5.php
+1.0.63:
+    - 'Updated table cwtuning_bots_youtuber_channels'
+    - builder_table_update_cwtuning_bots_youtuber_channels_6.php
+1.0.64:
+    - 'Created table cwtuning_bots_pikabu_stories'
+    - builder_table_create_cwtuning_bots_pikabu_stories.php
+1.0.65:
+    - 'Created table cwtuning_bots_pikabu_comments'
+    - builder_table_create_cwtuning_bots_pikabu_comments.php
+1.0.66:
+    - 'Updated table cwtuning_bots_pikabu_stories'
+    - builder_table_update_cwtuning_bots_pikabu_stories.php
+1.0.67:
+    - 'Updated table cwtuning_bots_pikabu_comments'
+    - builder_table_update_cwtuning_bots_pikabu_comments.php
+1.0.68:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_5.php
+1.0.69:
+    - 'Created table cwtuning_bots_articles_comments'
+    - builder_table_create_cwtuning_bots_articles_comments.php
+1.0.70:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_6.php
+1.0.71:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_7.php
+1.0.72:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_8.php
+1.0.73:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_9.php
+1.0.74:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_10.php
+1.0.75:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_11.php
+1.0.76:
+    - 'Updated table cwtuning_bots_articles'
+    - builder_table_update_cwtuning_bots_articles_12.php
+1.0.77:
+    - 'Created table cwtuning_bots_articles_tags_ids'
+    - builder_table_create_cwtuning_bots_articles_tags_ids.php
+1.0.78:
+    - 'Created table cwtuning_bots_articles_tags'
+    - builder_table_create_cwtuning_bots_articles_tags.php
+1.0.79:
+    - 'Drop table cwtuning_bots_articles_tags'
+    - builder_table_delete_cwtuning_bots_articles_tags.php
+1.0.80:
+    - 'Created table cwtuning_bots_posts_rating'
+    - builder_table_create_cwtuning_bots_posts_rating.php
+1.0.81:
+    - 'Updated table cwtuning_bots_youtuber_videolist'
+    - builder_table_update_cwtuning_bots_youtuber_videolist_3.php
+1.0.82:
+    - 'Updated table cwtuning_bots_youtuber_videolist'
+    - builder_table_update_cwtuning_bots_youtuber_videolist_4.php
+1.0.83:
+    - 'Drop table cwtuning_bots_pikabu_stories'
+    - builder_table_delete_cwtuning_bots_pikabu_stories.php
+1.0.84:
+    - 'Drop table cwtuning_bots_pikabu_comments'
+    - builder_table_delete_cwtuning_bots_pikabu_comments.php
+1.0.85:
+    - 'Updated table cwtuning_bots_'
+    - builder_table_update_cwtuning_bots__5.php
+1.0.86:
+    - 'Created table cwtuning_bots_best_comments_daily'
+    - builder_table_create_cwtuning_bots_best_comments_daily.php
+1.0.87:
+    - 'Created table cwtuning_bots_best_tags'
+    - builder_table_create_cwtuning_bots_best_tags.php
+1.0.88:
+    - 'Created table cwtuning_bots_blogtitle_filter'
+    - builder_table_create_cwtuning_bots_blogtitle_filter.php

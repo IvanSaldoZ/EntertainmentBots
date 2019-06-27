@@ -1,0 +1,30 @@
+columns:
+    channel_caption:
+        label: 'Channel Caption'
+        type: text
+        searchable: true
+        sortable: true
+    channel_id:
+        label: 'Channel ID'
+        type: text
+        searchable: true
+        sortable: true
+    is_on:
+        label: 'Is ON'
+        type: switch
+    last_scanned:
+        label: 'Last scanned'
+        type: datetime
+        format: Y-m-d H:i:s
+    last_page_token:
+        label: 'Last page token'
+        type: text
+    category_id:
+        label: Category
+        type: text
+        sortable: true
+        select: name
+        relation: categories
+    desc:
+        label: 'Desc order?'
+        type: switch
